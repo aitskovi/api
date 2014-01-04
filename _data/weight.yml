@@ -1,3 +1,12 @@
 - weight: 158
   unit: lbs
   date: 2014-01-01
+- weight: 159
+  unit: lbs
+  date: 2014-01-02
+- weight: 159.2
+  unit: lbs
+  date: 2014-01-03
+- weight: 159.6
+  unit: lbs
+  date: 2014-01-04
