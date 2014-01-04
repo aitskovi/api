@@ -10,6 +10,8 @@ API_DIR = 'v1'
 
 DATA_FILES = FileList["#{DATA_DIR}/*"]
 
+# TODO(Avi Itskovich): Verify rakefile was run from root
+
 module API 
   # Generate an API endpoint from YAML data file
   def self.generate(source, destination)
@@ -33,7 +35,7 @@ task :clean do
 end
 
 task :publish do
-  # TODO(Avi Itskovich): Ensure that each step succeeded
+  # TODO(Avi Itskovich): Switch back to the current git branch
   sh 'git checkout gh-pages'
   sh 'git rebase origin/master'
 
