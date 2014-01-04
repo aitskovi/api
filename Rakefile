@@ -35,8 +35,9 @@ end
 task :publish do
   # TODO(Avi Itskovich): Ensure that each step succeeded
   sh 'git checkout gh-pages'
+  sh 'git rebase origin/master'
   rake :clean
   rake :build  
-  sh 'git commit -am "Publish API'
+  sh 'git commit -am "API Update"'
   sh 'git push origin gh-pages'
 end
