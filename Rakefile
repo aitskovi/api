@@ -36,8 +36,10 @@ task :publish do
   # TODO(Avi Itskovich): Ensure that each step succeeded
   sh 'git checkout gh-pages'
   sh 'git rebase origin/master'
-  rake :clean
-  rake :build  
+
+  Rake::Task["clean"].invoke
+  Rake::Task["build"].invoke
+
   sh 'git commit -am "API Update"'
   sh 'git push origin gh-pages'
 end
