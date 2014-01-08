@@ -42,6 +42,7 @@ task :publish do
   Rake::Task["clean"].invoke
   Rake::Task["build"].invoke
 
-  sh 'git commit -am "API Update"'
+  sh "git add #{API_DIR}"
+  sh 'git commit -m "API Update"'
   sh 'git push -f origin gh-pages'
 end
