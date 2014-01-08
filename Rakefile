@@ -41,5 +41,5 @@ task :publish do
   Rake::Task["build"].invoke
 
   sh 'git commit -am "API Update"'
-  sh 'git push origin gh-pages'
+  sh 'git push -f origin gh-pages'
 end
