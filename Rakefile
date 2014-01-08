@@ -45,4 +45,5 @@ task :publish do
   sh "git add #{API_DIR}"
   sh 'git commit -m "API Update"'
   sh 'git push -f origin gh-pages'
+  sh 'git checkout master'
 end
