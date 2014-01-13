@@ -52,7 +52,7 @@ task :publish do
 
   sh "git add #{API_DIR}" do |success, res|
     # Attempt to git add, if it doesn't work fall back.
-    if !ok
+    unless success
       GIT.reset
       fail "Git add failed on publish with result: #{res}"
     end
