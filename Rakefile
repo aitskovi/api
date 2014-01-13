@@ -20,6 +20,13 @@ module API
   end
 end
 
+module GIT
+  def self.reset
+    sh 'git reset --hard'
+    sh 'git checkout master'
+  end
+end
+
 task :default => :build
 
 task :build do
@@ -35,14 +42,21 @@ task :clean do
 end
 
 task :publish do
-  # TODO(Avi Itskovich): Switch back to the current git branch
   sh 'git checkout gh-pages'
+  sh 'git fetch'
   sh 'git rebase origin/master'
 
   Rake::Task["clean"].invoke
   Rake::Task["build"].invoke
 
-  sh "git add #{API_DIR}"
+  sh "git add #{API_DIR}" do |success, res|
+    # Attempt to git add, if it doesn't work fall back.
+    if !ok
+      GIT.reset
+      fail "Git add failed on publish with result: #{res}"
+    end
+  end
+
   sh 'git commit -m "API Update"'
   sh 'git push -f origin gh-pages'
   sh 'git checkout master'
