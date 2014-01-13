@@ -38,7 +38,8 @@ task :build do
 end
 
 task :clean do
-  sh "rm #{API_DIR}/*"
+  sh "rm -rf #{API_DIR}"
+  sh "mkdir #{API_DIR}"
 end
 
 task :publish do
