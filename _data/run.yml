@@ -20,3 +20,7 @@
   distance:
     magnitude: 2.51
     unit: miles
+- date: 2014-01-14
+  distance:
+    magnitude: 2.55
+    unit: miles
