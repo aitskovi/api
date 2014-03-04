@@ -42,3 +42,11 @@
   distance:
     magnitude: 1.15
     unit: km
+- date: 2014-02-27
+  distance:
+    magnitude: 0.575
+    unit: km
+- date: 2014-03-04
+  distance:
+    magnitude: 1.15
+    unit: km
