@@ -50,3 +50,7 @@
   distance:
     magnitude: 1.15
     unit: km
+- date: 2014-03-06
+  distance:
+    magnitude: 1.15
+    unit: km
