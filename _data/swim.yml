@@ -58,3 +58,7 @@
   distance:
     magnitude: 1.20
     unit: km
+- date: 2014-03-13
+  distance:
+    magnitude: 1.40
+    unit: km
