@@ -1,102 +1,136 @@
-- weight: 158
-  unit: lbs
-  date: 2014-01-01
-- weight: 159
-  unit: lbs
-  date: 2014-01-02
-- weight: 159.2
-  unit: lbs
-  date: 2014-01-03
-- weight: 159.6
-  unit: lbs
-  date: 2014-01-04
-- weight: 161
-  unit: lbs
-  date: 2014-01-06
-- weight: 161
-  unit: lbs
-  date: 2014-01-07
-- weight: 162
-  unit: lbs
-  date: 2014-01-08
-- weight: 162
-  unit: lbs
-  date: 2014-01-09
-- weight: 164
-  unit: lbs
-  date: 2014-01-11
-- weight: 163
-  unit: lbs
-  date: 2014-01-13
-- weight: 163
-  unit: lbs
-  date: 2014-01-14
-- weight: 166
-  unit: lbs
-  date: 2014-01-15
-- weight: 163
-  unit: lbs
-  date: 2014-01-16
-- weight: 164
-  unit: lbs
-  date: 2014-01-20
-- weight: 164
-  unit: lbs
-  date: 2014-01-21
-- weight: 164
-  unit: lbs
-  date: 2014-01-22
-- weight: 163
-  unit: lbs
-  date: 2014-01-25
-- weight: 163
-  unit: lbs
-  date: 2014-01-27
-- weight: 163
-  unit: lbs
-  date: 2014-01-28
-- weight: 164
-  unit: lbs
-  date: 2014-01-29
-- weight: 163
-  unit: lbs
-  date: 2014-01-30
-- weight: 165
-  unit: lbs
-  date: 2014-02-03
-- weight: 163
-  unit: lbs
-  date: 2014-02-04
-- weight: 165
-  unit: lbs
-  date: 2014-02-05
-- weight: 165
-  unit: lbs
-  date: 2014-02-11
-- weight: 164
-  unit: lbs
-  date: 2014-02-12
-- weight: 163
-  unit: lbs
-  date: 2014-02-13
-- weight: 163
-  unit: lbs
-  date: 2014-02-14
-- weight: 164
-  unit: lbs
-  date: 2014-02-26
-- weight: 166
-  unit: lbs
-  date: 2014-03-06
-- weight: 164
-  unit: lbs
-  date: 2014-03-06
-- weight: 166
-  unit: lbs
-  date: 2014-03-10
-- weight: 165
-  unit: lbs
-  date: 2014-03-12
-- weight: 165
-  unit: lbs
-  date: 2014-03-15
+- date: 2014-01-01
+  weight:
+    magnitude: 158
+    unit: lbs
+- date: 2014-01-02
+  weight:
+    magnitude: 159
+    unit: lbs
+- date: 2014-01-03
+  weight:
+    magnitude: 159.2
+    unit: lbs
+- date: 2014-01-04
+  weight:
+    magnitude: 159.6
+    unit: lbs
+- date: 2014-01-06
+  weight:
+    magnitude: 161
+    unit: lbs
+- date: 2014-01-07
+  weight:
+    magnitude: 161
+    unit: lbs
+- date: 2014-01-08
+  weight:
+    magnitude: 162
+    unit: lbs
+- date: 2014-01-09
+  weight:
+    magnitude: 162
+    unit: lbs
+- date: 2014-01-11
+  weight:
+    magnitude: 164
+    unit: lbs
+- date: 2014-01-13
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-01-14
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-01-15
+  weight:
+    magnitude: 166
+    unit: lbs
+- date: 2014-01-16
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-01-20
+  weight:
+    magnitude: 164
+    unit: lbs
+- date: 2014-01-21
+  weight:
+    magnitude: 164
+    unit: lbs
+- date: 2014-01-22
+  weight:
+    magnitude: 164
+    unit: lbs
+- date: 2014-01-25
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-01-27
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-01-28
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-01-29
+  weight:
+    magnitude: 164
+    unit: lbs
+- date: 2014-01-30
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-02-03
+  weight:
+    magnitude: 165
+    unit: lbs
+- date: 2014-02-04
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-02-05
+  weight:
+    magnitude: 165
+    unit: lbs
+- date: 2014-02-11
+  weight:
+    magnitude: 165
+    unit: lbs
+- date: 2014-02-12
+  weight:
+    magnitude: 164
+    unit: lbs
+- date: 2014-02-13
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-02-14
+  weight:
+    magnitude: 163
+    unit: lbs
+- date: 2014-02-26
+  weight:
+    magnitude: 164
+    unit: lbs
+- date: 2014-03-06
+  weight:
+    magnitude: 166
+    unit: lbs
+- date: 2014-03-06
+  weight:
+    magnitude: 164
+    unit: lbs
+- date: 2014-03-10
+  weight:
+    magnitude: 166
+    unit: lbs
+- date: 2014-03-12
+  weight:
+    magnitude: 165
+    unit: lbs
+- date: 2014-03-15
+  weight:
+    magnitude: 165
+    unit: lbs
