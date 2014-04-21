@@ -45,7 +45,7 @@ end
 task :publish do
   sh 'git checkout gh-pages'
   sh 'git fetch'
-  sh 'git rebase origin/master'
+  sh 'git reset --hard origin/master'
 
   Rake::Task["clean"].invoke
   Rake::Task["build"].invoke
