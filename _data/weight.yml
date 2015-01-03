@@ -210,3 +210,7 @@
   weight:
     magnitude: 166
     unit: lbs
+- date: 2015-01-02
+  weight:
+    magnitude: 164
+    unit: lbs
