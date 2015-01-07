@@ -222,3 +222,11 @@
   weight:
     magnitude: 164
     unit: lbs
+- date: 2015-01-05
+  weight:
+    magnitude: 165
+    unit: lbs
+- date: 2015-01-06
+  weight:
+    magnitude: 162
+    unit: lbs
